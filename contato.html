@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Império Portas | Contato</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container navbar">
+      <a class="logo" href="index.html">Império <span>Portas</span></a>
+      <nav><ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="orcamento.html">Orçamento</a></li>
+        <li><a class="active" href="contato.html">Contato</a></li>
+      </ul></nav>
+      <div class="nav-cta"><a class="btn btn-light" href="https://wa.me/5519999742110" target="_blank">WhatsApp</a></div>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="sobre.html">Sobre Nós</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="orcamento.html">Orçamento</a>
+    <a href="contato.html" class="active">Contato</a>
+    <div class="mobile-menu-cta">
+      <a class="btn btn-light" href="https://wa.me/5519999742110" target="_blank">Chamar no WhatsApp</a>
+    </div>
+  </nav>
+
+  <section class="banner">
+    <div class="container">
+      <div class="banner-card" data-reveal>
+        <span class="eyebrow">Contato</span>
+        <h1>Fale com a Império Portas</h1>
+        <p>Estamos prontos para atender você com agilidade, atenção aos detalhes e profissionalismo.</p>
+        <a class="btn btn-light" href="https://wa.me/5519999742110" target="_blank">Chamar no WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid-2">
+      <div data-reveal>
+        <div class="line"></div>
+        <h2>Um atendimento direto, confiável e personalizado</h2>
+        <p>Se você deseja tirar dúvidas, solicitar informações ou conversar sobre seu projeto, nossa equipe está pronta para atender com clareza, organização e atenção individual. Entre em contato e conheça um serviço alinhado ao padrão do seu imóvel.</p>
+      </div>
+      <div class="highlight-box" data-reveal data-reveal-delay="2">
+        <h3>Atendimento premium</h3>
+        <p>Uma comunicação objetiva, elegante e profissional para que cada cliente tenha segurança desde o primeiro contato.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt-bg">
+    <div class="container">
+      <div class="section-head center" data-reveal>
+        <div class="line" style="margin:0 auto 22px;"></div>
+        <h2>Nossos canais de contato</h2>
+      </div>
+      <div class="grid-3">
+        <div class="contact-card" data-reveal data-reveal-delay="1">
+          <h3> WhatsApp</h3>
+          <p>Atendimento rápido e direto para informações e orçamentos. Canal mais ágil.</p>
+        </div>
+        <div class="contact-card" data-reveal data-reveal-delay="2">
+          <h3> Telefone</h3>
+          <p>Canal para dúvidas, suporte comercial e agendamentos.</p>
+        </div>
+        <div class="contact-card" data-reveal data-reveal-delay="3">
+          <h3> E-mail</h3>
+          <p>Ideal para envio de detalhes do projeto e solicitações formais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULÁRIO + INFORMAÇÕES -->
+  <section class="section">
+    <div class="container grid-2">
+      <div class="form-box" data-reveal>
+        <!-- Sucesso -->
+        <div class="form-success">
+          <div class="icon">✅</div>
+          <h3>Mensagem enviada!</h3>
+          <p>Nossa equipe retornará em breve com atenção e profissionalismo.</p>
+        </div>
+
+        <h3 class="mb-16">Envie sua mensagem</h3>
+        <form class="form-grid" id="formContato" novalidate>
+          <div class="form-group">
+            <label for="cNome">Nome *</label>
+            <input type="text" id="cNome" name="nome" placeholder="Seu nome" required />
+          </div>
+          <div class="form-group">
+            <label for="cTel">Telefone *</label>
+            <input type="tel" id="cTel" name="telefone" placeholder="(00) 00000-0000" required />
+          </div>
+          <div class="form-group">
+            <label for="cEmail">E-mail *</label>
+            <input type="email" id="cEmail" name="email" placeholder="seuemail@exemplo.com" required />
+          </div>
+          <div class="form-group">
+            <label for="cMsg">Mensagem *</label>
+            <textarea id="cMsg" name="mensagem" placeholder="Como podemos ajudar?" required></textarea>
+          </div>
+          <button class="btn btn-gold" type="submit" style="width:100%; min-height:52px;">Enviar Mensagem</button>
+        </form>
+      </div>
+
+      <div class="info-box" data-reveal data-reveal-delay="2">
+        <h3 class="mb-16">Informações de atendimento</h3>
+        <p style="margin-bottom:14px;"><strong style="color:var(--gold);">WhatsApp:</strong> +55 (19) 99974-2110</p>
+        <p style="margin-bottom:14px;"><strong style="color:var(--gold);">E-mail:</strong> imperioportas114</p>
+        <p style="margin-bottom:14px;"><strong style="color:var(--gold);">Horário:</strong> Segunda a sexta, horário comercial</p>
+        <p style="margin-bottom:28px;"><strong style="color:var(--gold);">Atendimento:</strong> Sob agendamento e consultoria personalizada</p>
+        <a class="btn btn-light" href="https://wa.me/5519999742110" target="_blank" style="width:100%; justify-content:center;">Falar no WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt-bg">
+    <div class="container center" data-reveal>
+      <div class="line" style="margin:0 auto 22px;"></div>
+      <h2>Entre em contato e receba um atendimento à altura do seu projeto</h2>
+      <div class="hero-actions" style="justify-content:center; margin-top:24px;">
+        <a class="btn btn-light" href="https://wa.me/5519999742110" target="_blank">Falar no WhatsApp</a>
+        <a class="btn btn-gold" href="orcamento.html">Solicitar Orçamento</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><div class="logo mb-16">Império <span>Portas</span></div><p>Atendimento confiável, acabamento sofisticado e execução profissional do início ao fim.</p></div>
+      <div><h4>Navegação</h4><a href="index.html">Home</a><a href="sobre.html">Sobre Nós</a><a href="servicos.html">Serviços</a><a href="orcamento.html">Orçamento</a><a href="contato.html">Contato</a></div>
+      <div>
+         <h4>Contato</h4>
+        <p>WhatsApp: +55 (19) 99974-2110</p>
+        <p>E-mail: imperioportas114@gmail.com</p>
+        <p>Atendimento em horário comercial</p>
+      </div>
+    </div>
+    <div class="footer-bottom container"><p>&copy; 2025 Império Portas. Todos os direitos reservados.</p></div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
